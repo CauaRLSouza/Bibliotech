@@ -1,0 +1,38 @@
+.overlay-aviso {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5000;
+}
+
+.modal-aviso {
+  background: var(--blue);
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  min-width: 300px;
+}
+
+.botoes-aviso {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-confirmar {
+  background: white;
+  color: var(--blue);
+  padding: 8px 25px;
+}
+
+.btn-cancelar {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 25px;
+}

@@ -1,0 +1,32 @@
+.cart-summary {
+  border-top: 2px solid #f1f1f1;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.cart-summary-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-finalizar {
+  background: var(--green);
+  color: white;
+  padding: 16px;
+  font-size: 1.1rem;
+}
+
+.btn-continuar {
+  background: white;
+  color: var(--blue);
+  border: 2px solid var(--blue);
+  padding: 14px;
+}

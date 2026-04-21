@@ -1,0 +1,74 @@
+.cart-item,
+.pedido-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.cart-product-side,
+.pedido-left-side {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cart-thumb,
+.mini-capa {
+  width: 55px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.cart-qty-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f1f1f1;
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+
+.btn-remove-item-text {
+  background: none;
+  color: var(--red);
+  text-decoration: underline;
+  font-size: 0.8rem;
+}
+
+.pedido-actions-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.btn-arredondado {
+  border-radius: 30px;
+}
+
+.btn-read {
+  background: #0000FF;
+  color: white;
+  padding: 10px 40px;
+}
+
+.btn-delete-acervo {
+  background: white;
+  color: var(--red);
+  border: 2px solid var(--red);
+  padding: 8px 30px;
+}
+
+.badge-ebook-green {
+  color: var(--green);
+  border: 1.5px solid var(--green);
+  padding: 3px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-top: 8px;
+  display: inline-block;
+}
