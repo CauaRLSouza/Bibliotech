@@ -184,10 +184,13 @@ function App() {
           <div className="page-container section-sobre">
             <h2>A Lenda da Bibliotech</h2>
             <p>
-              A <strong>Bibliotech</strong> foi desenvolvida por <strong>Cauã</strong> para o projeto de Desenvolvimento WEB.
+              A <strong>Bibliotech</strong> foi desenvolvida por <strong>Cauã</strong> para o projeto de Desenvolvimento WEB para o projeto de Desenvolvimento WEB, 
+              sendo imediatamente nomeada a melhor, mais confiável e modesta loja de livros online já desenvolvida na história.
             </p>
             <p className="p-destaque">
-              Sinta-se livre para gastar todos os seus dinheiros aqui.
+              <p className="p-destaque">
+              Sinta-se livre para gastar todos os seus dinheiros aqui. Não se preocupe, seus dados estão tão seguros quanto um livro que ficou tanto tempo na mesma página que foi esquecido e acabou virando pé de guarda roupa.
+            </p>
             </p>
           </div>
         )}
