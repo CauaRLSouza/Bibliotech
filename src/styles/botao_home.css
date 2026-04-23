@@ -1,0 +1,58 @@
+.btn-buy {
+  background: var(--blue);
+  color: white;
+  padding: 14px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.btn-buy:hover{
+  filter:brightness(1.2);
+  cursor: pointer;
+}
+
+.btn-buy:active{
+  transform:scale(0.95);
+}
+
+.btn-cart {
+  background: white;
+  color: var(--blue);
+  border: 2px solid var(--blue);
+  padding: 12px;
+  width: 100%;
+}
+
+.posse-container {
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.msg-ja-possui {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.book-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.068);
+  cursor: pointer;
+}
+
+.book-card:active img{
+  transform: scale(1.05);
+  transition: 0.3;
+}
+
+.book-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgb(0, 0, 0);
+  filter: brightness(1.1);
+}
+
+.book-card:active{
+  transform: translateY(-5px) scale(0.98);
+  transition: 0.1;
+}

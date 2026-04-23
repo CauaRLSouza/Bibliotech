@@ -1,0 +1,117 @@
+
+export const LivrosHome = [
+    {
+    id: 1,
+    titulo: "O Senhor dos Anéis",
+    preco: 59.90,
+    autor: "J.R.R. Tolkien",
+    sinopse: "Em uma terra fantástica e única, um hobbit recebe de presente de seu tio um anel mágico e maligno que precisa ser destruído antes que caia nas mãos do mal. Para isso, o hobbit Frodo tem um caminho árduo pela frente, onde encontra perigo, medo e seres bizarros. Ao seu lado para o cumprimento desta jornada, ele aos poucos pode contar com outros hobbits, um elfo, um anão, dois humanos e um mago, totalizando nove seres que formam a Sociedade do Anel.",
+    capa: "/capas/senhordosaneis.jpg" 
+    },
+
+    { id: 2,
+    titulo: "1984",
+    preco: 35.00,
+    autor: "Geroge Orwell",
+    sinopse: "1984, de George Orwell, é uma distopia clássica sobre Winston Smith, um funcionário público na Oceânia, um estado totalitário vigiado pelo 'Grande Irmão'. Winston trabalha no Ministério da Verdade, reescrevendo a história, mas se rebela contra o sistema repressivo, a vigilância constante e a manipulação da realidade, envolvendo-se em um romance proibido.",
+    capa: "/capas/1984.jpg" },
+
+    { id: 3,
+    titulo: "Fred por Fred: As Várias Faces De Mim",
+    preco: 42.90,
+    autor: "Fred Jones",
+    sinopse: "O que acontece quando o holofote se apaga e a única pessoa na sala é você? Após o 'hiato criativo' da Mistério S.A., Fred Jones decidiu que era hora de o mundo conhecer o homem por trás da genialidade tática. Em 'As várias faces de mim', Fred explora sua jornada de autodescoberta, desde os sacrifícios de ser o cérebro (e os músculos) do grupo até a coragem de admitir que, às vezes, o maior mistério é o seu próprio reflexo. Prepare-se para lições valiosas sobre liderança magnética, a psicologia das echarpes e como manter a postura de herói mesmo quando seus amigos não estão lá para aplaudir. Um livro sobre superação, destino e, acima de tudo, sobre como ser Frederick Jones em um mundo cheio de Salsichas.",
+    capa: "/capas/FredPorFred.jpeg" },
+
+    { id: 4,
+    titulo: "O Chamado de Cthulhu",
+    preco: 39.90,
+    autor: "H.P. Lovecraft",
+    sinopse: "A história é narrada por Francis Wayland Thurston, que descobre as notas deixadas por seu falecido tio-avô, um professor de línguas semíticas na Universidade Brown. A investigação revela a existência de um culto milenar dedicado a uma entidade monstruosa e divindade blasfema vinda das estrelas: Cthulhu. Adormecido na cidade submersa de R'lyeh, Cthulhu exerce uma influência maligna sobre a psique humana, manifestando-se através de pesadelos, surtos de loucura e rituais macabros ao redor do mundo. À medida que Thurston junta as peças do quebra-cabeça — que envolvem um baixo-relevo grotesco, marinheiros aterrorizados e eventos geológicos inexplicáveis —, ele percebe que a humanidade é insignificante diante do despertar de forças ancestrais que a ciência não pode explicar nem deter.",
+    capa: "/capas/ChamadoCthulhu.jpg" },
+
+    { id: 5,
+    titulo: "A Cor Que Caiu do Espaço",
+    preco: 34.50,
+    autor: "H.P. Lovecraft",
+    sinopse: "A história se passa na região rural de Arkham, em uma área que os habitantes locais chamam de 'charneca murcha'. Tudo começa quando um meteorito de propriedades estranhas cai nas terras da família Gardner. O objeto não se comporta como matéria comum: ele não esfria, diminui de tamanho gradualmente e emite uma cor que não pertence ao espectro visível humano. Aos poucos, a presença dessa 'cor' passa a contaminar tudo ao redor. As plantações crescem em tamanhos anormais, mas com um gosto amargo e intragável; os animais começam a sofrer mutações grotescas e a vegetação passa a brilhar com uma luz pálida e doentia durante a noite. O horror se intensifica quando a própria família Gardner começa a ser afetada física e mentalmente pela influência alienígena, definhando em um processo de loucura e decomposição que desafia qualquer explicação científica.",
+    capa: "/capas/CorEspaço.jpg" },
+
+    { id: 6,
+    titulo: "Horror de Dunwich",
+    preco: 37.00,
+    autor: "H.P. Lovecraft",
+    sinopse: "A história se passa na isolada e decadente vila de Dunwich, no Massachusetts, onde nasce Wilbur Whateley, um ser de aparência estranha que apresenta um crescimento físico e intelectual anormalmente acelerado. Wilbur é neto de um velho feiticeiro local e, sob sua tutela, dedica-se a rituais obscuros e ao estudo do temido Necronomicon. O objetivo da família é abrir um portal para trazer de volta os Antigos, entidades colossais de outras dimensões, especificamente o deus Yog-Sothoth. O conflito escala quando Wilbur tenta roubar um exemplar do Necronomicon da Universidade de Miskatonic para completar um encantamento, mas acaba morto. Após sua morte, uma entidade invisível e monstruosa — que estava sendo mantida escondida e alimentada na fazenda dos Whateley — escapa e passa a devastar a região de Dunwich, deixando um rastro de destruição e morte. Cabe ao Dr. Henry Armitage e seus colegas professores utilizarem conhecimentos arcanos para tentar banir a criatura e impedir o fim da humanidade.",
+    capa: "/capas/Dunwich.jpg" },
+
+    { id: 7,
+    titulo: "Sussuros na Escuridão",
+    preco: 32.90,
+    autor: "H.P. Lovecraft",
+    sinopse: "A história começa após as enchentes históricas de Vermont em 1927, quando surgem relatos de corpos de criaturas estranhas flutuando nos rios. Albert Wilmarth, um professor de literatura da Universidade de Miskatonic, inicialmente cético, entra em correspondência com Henry Akeley, um folclorista que vive isolado nas colinas e afirma ter provas de que seres extraterrestres habitam as montanhas. Akeley descreve os 'Mi-Go', uma raça de seres fungoides vindos de Plutão (Yuggoth) que podem viajar pelo espaço e extrair cérebros humanos para transportá-los em cilindros metálicos. À medida que as cartas de Akeley se tornam mais erráticas e aterrorizadas, Wilmarth decide visitá-lo, apenas para se deparar com uma conspiração cósmica onde a identidade e a realidade humana são postas em xeque por uma inteligência alienígena fria e manipuladora.",
+    capa: "/capas/Sussurros.jpg" },
+    
+    { id: 8,
+    titulo: "O Lado Feio do Amor",
+    preco: 42.90,
+    autor: "Colleen Hoover",
+    sinopse: "Quando Tate Collins se muda para o apartamento de seu irmão, Corbin, para se dedicar ao mestrado em enfermagem, ela não esperava conhecer Miles Archer, um piloto de avião que carrega um passado misterioso e uma postura emocionalmente fechada. Eles não sentem amor à primeira vista, mas a atração física é inegável. Percebendo isso, Miles propõe um acordo: Tate não deve perguntar sobre o passado dele e não deve esperar um futuro juntos. No entanto, à medida que a relação puramente física evolui, Tate percebe que é impossível resistir aos sentimentos e descobre que 'o lado feio do amor' pode ser devastador quando se tenta ignorar as regras do coração.",
+    capa: "/capas/AmorFeio.jpg" },
+
+    { id: 9,
+    titulo: "O Morro dos Ventos Uivantes",
+    preco: 29.90,
+    autor: "Emily Brontë",
+    sinopse: "A trama acompanha a intensa e destrutiva relação entre Heathcliff, um órfão adotado pela família Earnshaw, e Catherine Earnshaw, a filha de seu benfeitor. Situada nas charnecas isoladas de Yorkshire, a história é narrada por meio dos relatos do governante Nelly Dean a um novo inquilino da região. O enredo explora o amor obsessivo que se transforma em uma vingança implacável após Catherine decidir se casar com o refinado Edgar Linton por convenção social. Ao longo de duas gerações, o ressentimento de Heathcliff consome a vida de todos ao redor, revelando uma atmosfera de paixão sombria e crueldade que desafia as normas morais da época.",
+    capa: "/capas/MorrosUivantes.jpg" },
+
+    { id: 10,
+    titulo: "Orgulho e Preconceito",
+    preco: 25.00,
+    autor: "Jane Austen",
+    sinopse: "A história se passa na zona rural da Inglaterra no século XIX e acompanha a vida de Elizabeth Bennet, uma das cinco filhas de um proprietário de terras que lida com a pressão da mãe para que todas se casem com homens ricos. O enredo se desenvolve a partir da chegada do rico e solteiro Sr. Bingley à vizinhança, acompanhado de seu amigo, o aristocrático e reservado Sr. Darcy. Enquanto Bingley se encanta por Jane, a irmã mais velha de Elizabeth, o encontro entre Elizabeth e Darcy é marcado por mal-entendidos: ela o considera arrogante e orgulhoso, enquanto ele tenta lutar contra a atração que sente por ela devido à sua posição social inferior. A obra explora temas como as convenções sociais, a influência do dinheiro e como o 'orgulho' e o 'preconceito' podem impedir o reconhecimento do verdadeiro amor.",
+    capa: "/capas/OrgulhoPreconceito.jpg" },
+
+    { id: 11,
+    titulo: "É Assim Que Acaba",
+    preco: 42.00,
+    autor: "Colleen Hoover",
+    sinopse: "Lily Bloom é uma jovem que mudou de uma cidadezinha no Maine para Boston, onde abriu sua própria floricultura. Ela conhece Ryle Kincaid, um neurocirurgião charmoso, mas avesso a relacionamentos, e os dois acabam se apaixonando. No entanto, à medida que a relação se torna séria, o comportamento de Ryle começa a despertar gatilhos do passado difícil de Lily, que cresceu em um lar marcado pela violência doméstica. Quando Atlas Corrigan, seu primeiro amor e a pessoa que a protegeu na adolescência, reaparece repentinamente em sua vida, Lily se vê em uma situação angustiante e precisa encontrar forças para interromper um ciclo de dor que ameaça sua felicidade e seu futuro.",
+    capa: "/capas/AssimAcaba.jpg" },
+
+    { id: 12,
+    titulo: "O Rei de Amarelo",
+    preco: 33.00,
+    autor: "Robert W. Chambers)",
+    sinopse: "Esta obra é uma coletânea de contos que orbitam em torno de uma peça de teatro fictícia e proibida, capaz de levar à loucura, ao desespero ou à morte qualquer pessoa que a leia. Ambientada principalmente na Paris do final do século XIX e em uma Nova York futurista, a narrativa explora o horror psicológico e a decadência através da influência sinistra de 'Hastur' e do enigmático 'Rei de Amarelo'. À medida que os personagens entram em contato com o segundo ato da peça, a realidade começa a se desintegrar, revelando visões da cidade alienígena de Carcosa e de seus lagos sombrios. O livro é considerado uma das maiores influências para o horror moderno e foi uma inspiração fundamental para a criação do universo de H.P. Lovecraft.",
+    capa: "/capas/ReiAmarelo.jpg" },
+
+    { id: 13,
+    titulo: "Os Sete Maridos de Evelyn Hugo",
+    preco: 44.90,
+    autor: "Taylor Jenkins Reid",
+    sinopse: "Aos 79 anos, a lendária e reclusa estrela de Hollywood, Evelyn Hugo, decide finalmente contar a verdade sobre sua vida glamourosa e escandalosa. Para surpresa de todos, ela escolhe Monique Grant, uma jornalista iniciante e desconhecida, para escrever sua biografia. À medida que Evelyn relata sua trajetória desde a chegada em Los Angeles nos anos 50 até sua aposentadoria nos anos 80, ela detalha as ambições, as perdas e os segredos por trás de seus sete casamentos. No entanto, o relato revela que, além da busca pela fama, houve um grande e proibido amor que ela protegeu a todo custo. Conforme a narrativa se aproxima do presente, Monique percebe que sua própria vida está conectada à história da estrela de uma forma trágica e irreversível.",
+    capa: "/capas/Evelyn.jpg" },
+
+    { id: 14,
+    titulo: "Sherlock Holmes: O Cão dos Baskerville",
+    preco: 32.00,
+    autor: "Arthur Conan Doyle",
+    sinopse: "Sherlock Holmes e Dr. Watson são chamados para investigar a morte misteriosa de Sir Charles Baskerville, encontrado morto nos arredores de sua propriedade na mansão em Dartmoor. Embora a causa oficial seja um ataque cardíaco, uma pegada de um cão gigantesco é encontrada próxima ao corpo, reacendendo a lenda de uma maldição secular que assombra a família. Com a chegada do novo herdeiro, Sir Henry Baskerville, Holmes precisa agir rapidamente para descobrir se a ameaça é uma criatura sobrenatural ou um assassino de carne e osso que utiliza o mito para esconder seus crimes. A trama mergulha em uma atmosfera de suspense e nevoeiro, onde a lógica do detetive é testada contra o medo do desconhecido.",
+    capa: "/capas/Baskerville.jpg" },
+
+    { id: 15,
+    titulo: "O Guia do Mochileiro da Galáxias",
+    preco: 149.90,
+    autor: "Douglas Adams",
+    sinopse: "A história começa com Arthur Dent, um inglês comum que tem um dia péssimo: sua casa está prestes a ser demolida para a construção de uma via expressa e, logo em seguida, a própria Terra é destruída pelos Vogons para dar lugar a uma rodovia hiperespacial. Arthur é salvo por seu amigo Ford Prefect, que revela ser um alienígena infiltrado e o leva para pegar carona em uma nave espacial. Juntos, eles viajam pelo universo acompanhados por uma equipe improvável — incluindo o presidente da galáxia de duas cabeças, Zaphod Beeblebrox, e um robô maníaco-depressivo chamado Marvin. Guiados pelo 'Guia do Mochileiro das Galáxias', um livro eletrônico que contém todo o conhecimento necessário para sobreviver no cosmos (e que traz na capa a frase 'Não entre em pânico'), Arthur embarca em uma jornada filosófica e absurda em busca do sentido da vida, do universo e de tudo mais.",
+    capa: "/capas/Galaxias.jpg" },
+
+    {id: 16,
+    titulo:"O Manifesto Comunista",
+    preco: 20.00,
+    autores: "Karl Marx e Friedrich Engels",
+    sinopse: "Publicado originalmente em 1848, este documento histórico analisa a sociedade através da luta de classes e da evolução dos sistemas econômicos. A obra descreve a ascensão da burguesia e o desenvolvimento do capitalismo, argumentando que este sistema gera contradições internas que levam inevitavelmente ao fortalecimento do proletariado. Os autores defendem a abolição da propriedade privada dos meios de produção e propõem uma revolução social para estabelecer uma sociedade sem classes e sem exploração. O texto termina com o famoso chamado à união dos trabalhadores do mundo, tornando-se um dos tratados políticos mais influentes da história moderna.",
+    capa: "/capas/Manifesto.jpg"}
+
+];

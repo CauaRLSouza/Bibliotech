@@ -1,0 +1,28 @@
+:root {
+  --blue: #1a2a6c;
+  --bg: #d6d6d6;
+  --red: #d63031;
+  --green: #27ae60;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: #2d3436;
+}
+
+.clickable,
+button,
+.logo,
+nav li {
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  font-weight: bold;
+  transition: 0.2s;
+  border-radius: 8px;
+}
